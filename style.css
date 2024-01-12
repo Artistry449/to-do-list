@@ -1,0 +1,122 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: cyan;
+}
+
+header {
+    display: flex;
+    background: cyan;
+    height: 100px;
+}
+
+header h1 {
+    margin-top: 28px;
+    margin-left: 50px;
+}
+
+header .header_paragraph {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.inputTitle {
+    /* width: 100%; */
+    padding: 4px 5px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.lblDescription {
+    margin-left: 20px;
+}
+
+.inputDescription {
+    width: 300px;
+    /* height: 50px; */
+    padding: 4px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+}
+
+.line {
+    height: 1px;
+    background: white;
+}
+
+main {
+    height: auto;
+    background: cyan;
+}
+
+.submitForm {
+    padding-top: 30px;
+    padding-left: 400px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.btnSubmit {
+    /* display: inline-block; */
+    height: 27px;
+    width: 28px;
+    /* background-image: url('./imgs//add.png');
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50%;
+    /* margin-top: 10px; */
+}
+
+.to-do {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.toDoItem {
+    display: flex;
+    height: auto;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(43, 222, 222);
+    margin-top: 20px;
+}
+
+.toDoItem p {
+    margin-left: 30px;
+    /* Add some top margin between title and description */
+}
+
+.editBtn,
+.deleteBtn {
+    height: 36px;
+    width: 40px;
+    border-radius: 44%;
+    margin: auto;
+    margin-left: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.editBtn {
+    background-image: url("./imgs/edit.png");
+}
+
+.deleteBtn {
+    background-image: url("./imgs/delete.png");
+}
