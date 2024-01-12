@@ -85,6 +85,7 @@ main {
 
 .container {
     display: flex;
+    width: 1000px;
 }
 
 .toDoItem {
@@ -124,3 +125,9 @@ main {
 .confirmBtn {
     background-image: url("./imgs/confirm.png");
 }
+
+.inActive {
+    visibility: hidden;
+}
+
+.active {}
