@@ -120,3 +120,7 @@ main {
 .deleteBtn {
     background-image: url("./imgs/delete.png");
 }
+
+.confirmBtn {
+    background-image: url("./imgs/confirm.png");
+}
