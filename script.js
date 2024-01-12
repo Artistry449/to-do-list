@@ -77,8 +77,6 @@ submitButton.addEventListener("click", function (e) {
             inputTitle.value = "";
             inputDescription.value = "";
         }
-
-        console.log(containerTitle.textContent + ' ' + containerDescription.textContent)
     }
 
     inputTitle.value = "";
